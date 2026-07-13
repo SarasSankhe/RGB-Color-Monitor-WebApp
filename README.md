@@ -9,12 +9,12 @@ This project is an IoT-based web application that reads RGB color data from the 
 ## Features
 
 - Real-time RGB color monitoring
-- Live web dashboard
-- Flask backend
-- PySerial communication
-- Responsive HTML/CSS interface
-- Live color visualization
-- Arduino Nano 33 BLE Sense support
+- Live Flask web application
+- Responsive HTML interface with embedded CSS
+- Live RGB value display
+- Dynamic color preview
+- Serial communication using PySerial
+- Arduino Nano 33 BLE Sense integration
 
 ## Hardware Used
 
@@ -37,18 +37,16 @@ This project is an IoT-based web application that reads RGB color data from the 
 ```
 RGB-Color-Monitor-WebApp/
 │
-├── app.py
-├── requirements.txt
-├── README.md
+├── Arduino/
+│   └── RGB_Color_Sensor.ino
 │
 ├── templates/
 │   └── index.html
 │
-├── static/
-│   └── style.css
-│
-└── Arduino/
-    └── RGB_Color_Sensor.ino
+├── app.py
+├── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 ## Installation
